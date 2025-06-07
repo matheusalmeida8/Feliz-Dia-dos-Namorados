@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #fff0f5;
+    color: #333;
+}
+.cabecario{
+     font-family: 'Great Vibes', cursive;
+     text-align: center;     /* Centraliza horizontalmente o texto */
+     background: linear-gradient(to right, #ff6f91, #ff9472);
+     color: white;
+     padding: 50px 20px;
+     font-style: italic;
+}
+.carta{
+      text-align: center;
+      background-color: #ffe4e1;
+      padding: 30px;
+      margin: 50px auto;
+      max-width: 700px;
+      border-radius: 10px;
+      font-size: 1.2em;
+      font-style: italic;
+      margin-top: 50px;
+}
+.botao{
+      display: inline-block;
+      background-color: #ff6f91;
+      color: white;
+      font-size: 15px;
+      padding: 20px 25px;
+      border-radius:30px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* sombra */
+      display: block;
+      width: fit-content;     /* ou uma largura fixa, como 150px */
+      margin: 0 auto;
+      text-align: center;
+}
+  
+footer{
+      background-color: #f8cdda;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 110px;
+    }
+.surpresa{
+         margin-top: 100px;
+         text-align: center;
+    }
+  .surpresap{
+      text-align: center;
+  }

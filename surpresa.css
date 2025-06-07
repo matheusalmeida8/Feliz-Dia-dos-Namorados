@@ -1,0 +1,19 @@
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: pink;
+      font-family: 'Arial', sans-serif;
+    }
+    .amor {
+      position: absolute;
+      color: red;
+      font-size: 24px;
+      font-weight: bold;
+      user-select: none;
+      pointer-events: none;
+      animation: flutuar 5s linear infinite;
+    }
+    @keyframes flutuar {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(-100px); opacity: 0; }
+    }
