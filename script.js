@@ -1,7 +1,7 @@
  function criarMensagem() {
     const msg = document.createElement('div');
     msg.classList.add('amor');
-    msg.innerText = 'Eu te amo pretinha ❤️';
+    msg.innerText = 'Eu te amo amor ❤️';
 
     // Posição aleatória
     msg.style.left = Math.random() * window.innerWidth + 'px';
@@ -19,4 +19,5 @@
   }
 
   // Criar várias mensagens a cada 300ms
+
   setInterval(criarMensagem, 300);
